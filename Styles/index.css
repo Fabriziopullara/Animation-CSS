@@ -1,0 +1,58 @@
+body {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+}
+
+body::after {
+  content: "";
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url(../Images/ballons.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: rgb(0, 0, 0);
+}
+
+
+.ticket{
+  width: 400px;
+  height: 600px;
+border: solid 2px black;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 20px;
+align-items: center;
+border-radius: 5px;}
+
+h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: oblique;
+}
+
+button{
+  margin-top: 20px;
+  padding:10px;
+  border-radius: 50%;
+  border-style: none;
+  background-color: yellowgreen;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: brown;
+  transition: all 0.9s ease-in-out;
+  transition-delay:0.5s ;
+}
+
+@keyframes imgZoom{
+  0%{}
+}

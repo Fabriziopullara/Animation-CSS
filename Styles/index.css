@@ -53,7 +53,16 @@ button:hover {
   transition-delay: 0.5s;
 }
 
-@keyframes imgZoom {
-  0% {
-  }
+
+p{
+  font-size: 15px;
+  animation: text;
+  animation-duration: 5s;
+}
+
+@keyframes text {
+  from{margin-left: 100%;}
+  to{margin-left: 0%;}
+  50%{opacity: 0;}
+  
 }

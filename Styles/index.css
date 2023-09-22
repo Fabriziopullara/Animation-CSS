@@ -21,38 +21,39 @@ body::after {
   background-color: rgb(0, 0, 0);
 }
 
-
-.ticket{
+.ticket {
   width: 400px;
   height: 600px;
-border: solid 2px black;
-display: flex;
-flex-direction: column;
-justify-content: center;
-padding: 20px;
-align-items: center;
-border-radius: 5px;}
+  border: solid 2px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+  border-radius: 5px;
+}
 
-h1{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-style: oblique;
 }
 
-button{
+button {
   margin-top: 20px;
-  padding:10px;
+  padding: 10px;
   border-radius: 50%;
   border-style: none;
   background-color: yellowgreen;
 }
 
-button:hover{
+button:hover {
   cursor: pointer;
   background-color: brown;
   transition: all 0.9s ease-in-out;
-  transition-delay:0.5s ;
+  transition-delay: 0.5s;
 }
 
-@keyframes imgZoom{
-  0%{}
+@keyframes imgZoom {
+  0% {
+  }
 }
